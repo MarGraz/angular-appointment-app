@@ -8,6 +8,8 @@ import { Appointment } from '../models/appointment';
   styleUrl: './appointment-list.component.css',
 })
 export class AppointmentListComponent {
+  
+  // Properties
   newAppointmentTitle: string = '';
   newAppointmentDate: Date = new Date();
 
@@ -23,7 +25,12 @@ export class AppointmentListComponent {
         date: this.newAppointmentDate,
       };
     
+      // Add appointment to the array
       this.appointments.push(newAppointment);
+
+      // Clear properties
+      this.newAppointmentTitle = "";
+      this.newAppointmentDate = new Date();      
     }
   }
 }
