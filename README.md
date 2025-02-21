@@ -1,6 +1,6 @@
 # AppointmentApp
 
-It's a demo project for training purpose, to show the usage of:
+This is a demo project for training purpose, to show in an easy way the usage of:
 
 - Components with properties, methods, imports
 - Modules (to start, just one module)
