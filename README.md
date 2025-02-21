@@ -8,7 +8,7 @@ This is a demo project for training purpose, to show in an easy way the usage of
 - Two way binding with: [(ngModel)]="propertyName"
 - Event, like: (click)
 - Angular Lifecycle hooks, like: ngOnInit(), with the OnInit interface implementation (used to load data from the local storage)
-- Implementation of the browser local storage
+- Implementation of the browser local storage (to keep inserted data in memory also after a server reboot)
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.6, and **is not standalone**.
 
