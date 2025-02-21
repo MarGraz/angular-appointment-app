@@ -1,6 +1,5 @@
 # AppointmentApp
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.6, and **is not standalone**.
 It's a demo project for training purpose, to show the usage of:
 
 - Components with properties, methods, imports
@@ -10,6 +9,8 @@ It's a demo project for training purpose, to show the usage of:
 - Event, like: (click)
 - Angular Lifecycle hooks, like: ngOnInit(), with the OnInit interface implementation (used to load data from the local storage)
 - Implementation of the browser local storage
+
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.6, and **is not standalone**.
 
 ## Development server
 
